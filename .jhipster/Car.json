@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20220227223156",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "car",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "brand",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "model",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Car",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "enginier",
+      "otherEntityRelationshipName": "car",
+      "relationshipName": "enginier",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

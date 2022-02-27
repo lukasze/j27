@@ -1,0 +1,26 @@
+{
+  "j27App": {
+    "enginier": {
+      "home": {
+        "title": "Enginier",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Enginier",
+        "createOrEditLabel": "Dodaj lub edytuj: Enginier",
+        "notFound": "No Enginiers found"
+      },
+      "created": "Utworzono nowy obiekt typu Enginier z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Enginier z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Enginier z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Enginier {{ id }}?"
+      },
+      "detail": {
+        "title": "Enginier"
+      },
+      "id": "Id",
+      "fullName": "Full Name",
+      "mobile": "Mobile",
+      "car": "Car"
+    }
+  }
+}

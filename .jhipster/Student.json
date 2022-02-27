@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220227223158",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "student",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Student",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "course",
+      "otherEntityRelationshipName": "student",
+      "ownerSide": true,
+      "relationshipName": "course",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

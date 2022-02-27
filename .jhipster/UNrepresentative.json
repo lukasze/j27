@@ -1,0 +1,36 @@
+{
+  "applications": "*",
+  "changelogDate": "20220227223155",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "u_nrepresentative",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "gender",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UNrepresentative",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "country",
+      "otherEntityRelationshipName": "unrepresentative",
+      "ownerSide": false,
+      "relationshipName": "country",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

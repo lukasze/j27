@@ -1,0 +1,26 @@
+{
+  "j27App": {
+    "country": {
+      "home": {
+        "title": "Country",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Country",
+        "createOrEditLabel": "Dodaj lub edytuj: Country",
+        "notFound": "No Countries found"
+      },
+      "created": "Utworzono nowy obiekt typu Country z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Country z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Country z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Country {{ id }}?"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "id": "Id",
+      "name": "Name",
+      "officialLanguage": "Official Language",
+      "unrepresentative": "Unrepresentative"
+    }
+  }
+}
