@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20220227223157",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "enginier",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "fullName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mobile",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Enginier",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "car",
+      "otherEntityRelationshipName": "enginier",
+      "relationshipName": "car",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

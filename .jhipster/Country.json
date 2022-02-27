@@ -1,0 +1,36 @@
+{
+  "applications": "*",
+  "changelogDate": "20220227223154",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "country",
+  "fields": [
+    {
+      "fieldName": "id",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "officialLanguage",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Country",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "uNrepresentative",
+      "otherEntityRelationshipName": "country",
+      "ownerSide": true,
+      "relationshipName": "unrepresentative",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

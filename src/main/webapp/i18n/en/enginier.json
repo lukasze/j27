@@ -1,0 +1,26 @@
+{
+  "j27App": {
+    "enginier": {
+      "home": {
+        "title": "Enginiers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Enginier",
+        "createOrEditLabel": "Create or edit a Enginier",
+        "notFound": "No Enginiers found"
+      },
+      "created": "A new Enginier is created with identifier {{ param }}",
+      "updated": "A Enginier is updated with identifier {{ param }}",
+      "deleted": "A Enginier is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Enginier {{ id }}?"
+      },
+      "detail": {
+        "title": "Enginier"
+      },
+      "id": "Id",
+      "fullName": "Full Name",
+      "mobile": "Mobile",
+      "car": "Car"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+
+entity Country {
+	id Long,
+    name String,
+    officialLanguage String
+}
+entity UNrepresentative {
+	id Long,
+    name String,
+    gender String
+}
+
+relationship OneToOne {
+  Country{unrepresentative} to UNrepresentative{country}
+}
+
+    
+entity Car {
+	id Long,
+    brand String,
+    model String
+}
+entity Enginier {
+	id Long,
+	fullName String,
+    mobile String
+}
+
+relationship OneToMany {
+  Car{enginier} to Enginier{car}
+}
+
+
+entity Student {
+	id Long,
+    name String
+}
+entity Course {
+	id Long,
+	teacher String
+}
+
+relationship ManyToMany {
+  Student{course} to Course{student}
+}

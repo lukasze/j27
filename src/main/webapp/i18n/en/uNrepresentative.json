@@ -1,0 +1,26 @@
+{
+  "j27App": {
+    "uNrepresentative": {
+      "home": {
+        "title": "U Nrepresentatives",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new U Nrepresentative",
+        "createOrEditLabel": "Create or edit a U Nrepresentative",
+        "notFound": "No U Nrepresentatives found"
+      },
+      "created": "A new U Nrepresentative is created with identifier {{ param }}",
+      "updated": "A U Nrepresentative is updated with identifier {{ param }}",
+      "deleted": "A U Nrepresentative is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete U Nrepresentative {{ id }}?"
+      },
+      "detail": {
+        "title": "U Nrepresentative"
+      },
+      "id": "Id",
+      "name": "Name",
+      "gender": "Gender",
+      "country": "Country"
+    }
+  }
+}
